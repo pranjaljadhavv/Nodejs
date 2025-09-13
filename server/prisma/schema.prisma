@@ -89,7 +89,8 @@ model Wishlist {
 model ProductTrend {
   id        String   @id @default(uuid())
   productId String
-  date      DateTime @default(now())
+  date      DateTime @defaulff53
+(now())
   views     Int      @default(0)
   purchases Int      @default(0)
 
